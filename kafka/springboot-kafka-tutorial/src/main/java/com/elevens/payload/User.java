@@ -1,4 +1,4 @@
-package com.elevens;
+package com.elevens.payload;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class payload {
+public class User {
     private int id;
     private String firstName;
     private String lastName;
